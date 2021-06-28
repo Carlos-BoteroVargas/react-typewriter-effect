@@ -1,6 +1,11 @@
 {
   "name": "react-typescript-effect",
-  "version": "0.1.0",
+  "version": "0.0.1",
+  "description": "Testing a Typewritter inside a React Component.",
+  "keywords": ["React", "React", "TypeWriter"],
+  "repository": "https://github.com/Carlos-BoteroVargas/react-typewriter-effect.git",
+  "homepage": "https://github.com/Carlos-BoteroVargas/react-typewriter-effect.git",
+  "author": "Carlos Botero-Vargas <cbotero-vargas@outlook.com>",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",

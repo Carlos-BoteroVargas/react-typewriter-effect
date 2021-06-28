@@ -1,22 +1,24 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import TypeWriter from './TypeWriter';
 
 function App() {
+  const [text, setText] = useState('Original Text')
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+        <h1>
+          Title of the page
+        </h1>
+        <button
+          onClick={() => {
+            setText('~~> Here is the changed Text!! <~~')
+          }}
         >
-          Learn React
-        </a>
+          Test me, please!
+        </button>
+        <TypeWriter text={text}/>
       </header>
     </div>
   );
